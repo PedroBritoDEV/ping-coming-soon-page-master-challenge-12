@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base-apparel-coming-soon-master</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobileStyle.css">
+
+    <script src="https://kit.fontawesome.com/157af05854.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="./images/logo.svg" alt="logo">
+    </header>
+    <main>
+        <div class="text-content">
+            <h1>We are launching <span>soon!</span></h1>
+            <p>Subscribe and get notified</p>
+        </div>
+        <form class="inputs" onsubmit="send()">
+            <div class="email">
+                <input type="email" onfocus="writing()" placeholder="Your email adress..." name="email" id="email">
+            </div>
+            <p class="error-txt">Please provide a valid email adress</p>
+            <input type="submit"  class="submit" autocomplete="off" value="Notify Me" >
+        </form>
+        <img src="./images/illustration-dashboard.png" alt="">
+    </main>
+    <footer>
+        <div class="social-medias">
+            <div class="facebook"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+            <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+        <div class="copyright">
+            <p>&#169;Copyright ping. all rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scrips/scripts.js"></script>
+</body>
+</html>

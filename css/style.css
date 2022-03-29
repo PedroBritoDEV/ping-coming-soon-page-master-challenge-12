@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+body {
+    height: 100vh;
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 12.7vh;
+    margin-top: 3vh;
+}
+header img {
+    width: 90px;
+    height: 30px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .text-content {}
+main .text-content h1{
+    font-weight: 300;
+    color: #969696;
+}
+main .text-content h1 span{
+    font-weight: 700;
+    color: black;
+}
+main .text-content p{
+    text-align: center;
+    margin: 3.91vh;
+    
+}
+main .inputs {
+    margin-bottom: 8.8vh;
+    display: flex;
+    position: relative;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #ffffff inset;
+    border-radius: 3em;
+    width: 300;
+    -webkit-text-fill-color: #969696 !important;
+}
+main .inputs #email {
+    outline: none;
+    color: #969696;
+    margin-left: 30px;
+    border: none;
+    width: 80%;
+    height: 99%;
+}
+main .inputs #email::-webkit-input-placeholder {
+    color: #c2d3ff;
+}
+main .inputs .email {
+    border: 1px solid #c2d3ff;
+    width: 420px;
+    height: 55px;
+    border-radius: 3em;
+}
+main .inputs .error-txt {
+    display: none;
+    color: #ff5263;
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+}
+main .inputs .submit {
+    width: 200px;
+    height: 55px;
+    margin-left: 15px;
+    border-radius: 3em;
+    border: none;
+    background-color: #4f7df3;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 2px 6px 9px #c2d3ffb2;
+    cursor: pointer;
+}
+main img {
+    max-width: 44.44vw;
+    max-height: 38.09vh;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.86vh;
+}
+footer .social-medias {
+    display: flex;
+}
+footer .social-medias div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #c2d3ff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #4f7df3;
+    margin-left: 15px;
+    transition: .2s;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer .social-medias div:hover {
+    background-color: #4f7df3;
+    color: #fff;
+}
+footer .copyright {
+    margin: 2vh 0;
+}
