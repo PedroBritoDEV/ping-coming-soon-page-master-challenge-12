@@ -8,14 +8,13 @@
 }
 body {
     height: 100vh;
-    
 }
 header {
     display: flex;
     justify-content: center;
     align-items: center ;
     height: 12.7vh;
-    margin-top: 3vh;
+    margin-top: 3.5vh;
 }
 header img {
     width: 90px;
@@ -31,6 +30,7 @@ main .text-content {}
 main .text-content h1{
     font-weight: 300;
     color: #969696;
+    font-size: 2.3em;
 }
 main .text-content h1 span{
     font-weight: 700;
@@ -121,5 +121,6 @@ footer .social-medias div:hover {
     color: #fff;
 }
 footer .copyright {
-    margin: 2vh 0;
+    margin: 5vh 0 6vh 0;
+    color: #969696;
 }
